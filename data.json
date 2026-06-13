@@ -1,0 +1,1872 @@
+{
+  "users": [
+    {
+      "id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "email": "agent@demo.com",
+      "password_hash": "$2a$10$xFTv0r6e9ZcRqKnkr4TkF.HXav6vucVh33Uz4d8WKDHFGO.kQfnv2",
+      "role": "agent",
+      "name": "Support Agent Jane"
+    },
+    {
+      "id": "1c4203ae-44a1-46cb-b27f-ab8267cb6406",
+      "email": "admin@demo.com",
+      "password_hash": "$2a$10$tESuMZoXh6giufm8EEQfcOsmdXcEIvtIFH44t.sm/tKkU4xKse4wW",
+      "role": "admin",
+      "name": "System Administrator"
+    },
+    {
+      "id": "6e73e97a-a887-470f-84fa-840ee8f0ee06",
+      "email": "customer@demo.com",
+      "password_hash": "$2a$10$L37sWYWT/Ht3INiy1D0pqeCByGe626Jdel10k7Kbpphu2.4Mft/qu",
+      "role": "customer",
+      "name": "Customer John Doe"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "token": "ba4a1f31",
+      "agent_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "status": "ended",
+      "created_at": "2026-06-13T13:02:16.715Z",
+      "ended_at": "2026-06-13T13:13:03.921Z"
+    },
+    {
+      "id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "token": "ef4796e7",
+      "agent_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "status": "ended",
+      "created_at": "2026-06-13T13:13:54.647Z",
+      "ended_at": "2026-06-13T13:15:05.010Z"
+    },
+    {
+      "id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "token": "093f51c5",
+      "agent_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "status": "ended",
+      "created_at": "2026-06-13T13:16:28.889Z",
+      "ended_at": "2026-06-13T13:17:50.958Z"
+    },
+    {
+      "id": "966e1447-447f-4721-ac01-4c02c36dcd74",
+      "token": "c2548874",
+      "agent_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "status": "ended",
+      "created_at": "2026-06-13T13:22:43.621Z",
+      "ended_at": "2026-06-13T14:20:03.093Z"
+    },
+    {
+      "id": "a47b9490-04ea-4531-b92f-b401461a5373",
+      "token": "e1907632",
+      "agent_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "status": "ended",
+      "created_at": "2026-06-13T13:27:40.950Z",
+      "ended_at": "2026-06-13T14:20:00.132Z"
+    },
+    {
+      "id": "1bb244c2-0676-4bbc-b81b-a17b7dfb7624",
+      "token": "ffa5fec3",
+      "agent_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "status": "ended",
+      "created_at": "2026-06-13T13:33:29.892Z",
+      "ended_at": "2026-06-13T14:19:57.428Z"
+    },
+    {
+      "id": "e8931311-5724-428d-bdfb-78f4c2f4b321",
+      "token": "3e756691",
+      "agent_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "status": "ended",
+      "created_at": "2026-06-13T14:00:56.464Z",
+      "ended_at": "2026-06-13T14:19:54.746Z"
+    },
+    {
+      "id": "f7080152-31ef-46e8-b631-2154d70d36eb",
+      "token": "2da2ecc9",
+      "agent_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "status": "ended",
+      "created_at": "2026-06-13T14:08:29.378Z",
+      "ended_at": "2026-06-13T14:13:38.494Z"
+    },
+    {
+      "id": "119157b9-cf14-408d-8f58-51e27d1695bf",
+      "token": "03770e62",
+      "agent_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "status": "ended",
+      "created_at": "2026-06-13T14:13:41.334Z",
+      "ended_at": "2026-06-13T14:17:16.280Z"
+    },
+    {
+      "id": "d646d435-98da-46d5-bdf7-a75405bd7330",
+      "token": "fb996758",
+      "agent_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "status": "ended",
+      "created_at": "2026-06-13T14:21:05.807Z",
+      "ended_at": "2026-06-13T14:23:17.795Z"
+    },
+    {
+      "id": "a628398d-a1cf-4beb-8a2b-0b9d0a750d92",
+      "token": "2d94694d",
+      "agent_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "status": "ended",
+      "created_at": "2026-06-13T14:25:26.494Z",
+      "ended_at": "2026-06-13T14:26:38.368Z"
+    }
+  ],
+  "participants": [
+    {
+      "id": "87e8bb8d-bb0b-4d9e-a426-c5c6d3c43290",
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:03:08.058Z",
+      "left_at": "2026-06-13T13:08:54.121Z"
+    },
+    {
+      "id": "3e57695d-b592-457e-8058-c2a4d58be19f",
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:12:14.540Z",
+      "left_at": "2026-06-13T13:12:17.702Z"
+    },
+    {
+      "id": "cf55d64a-435c-45e1-a3e2-3aa963da1b3f",
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:12:17.702Z",
+      "left_at": "2026-06-13T13:12:20.434Z"
+    },
+    {
+      "id": "e6eb0eed-2c39-4dfb-b542-5397dd585f3c",
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:12:20.434Z",
+      "left_at": "2026-06-13T13:12:22.859Z"
+    },
+    {
+      "id": "1041d4ea-963a-4bdb-8740-77db6c6e755c",
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:12:22.859Z",
+      "left_at": "2026-06-13T13:12:25.218Z"
+    },
+    {
+      "id": "65394a54-a996-497f-b0e2-8ca9402a8e3c",
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:12:25.218Z",
+      "left_at": "2026-06-13T13:12:27.545Z"
+    },
+    {
+      "id": "eec7721d-3311-4390-8d5b-4b11c505c4f1",
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:12:27.545Z",
+      "left_at": "2026-06-13T13:12:29.899Z"
+    },
+    {
+      "id": "0bb9a5ee-1bc3-4795-82ec-6ed614c0ee56",
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:12:29.900Z",
+      "left_at": "2026-06-13T13:12:31.983Z"
+    },
+    {
+      "id": "622afa81-a787-484a-9c19-460652732c76",
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:12:31.983Z",
+      "left_at": "2026-06-13T13:12:34.242Z"
+    },
+    {
+      "id": "22c9191b-5d38-4b54-b0cd-aeebbbff5f81",
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:12:34.242Z",
+      "left_at": "2026-06-13T13:12:36.383Z"
+    },
+    {
+      "id": "944c58b8-482a-4723-8f5d-1b9a9544acaa",
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:12:36.383Z",
+      "left_at": "2026-06-13T13:12:38.562Z"
+    },
+    {
+      "id": "e2d81188-98ad-4b26-8b9a-fd993beeb78c",
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:12:38.562Z",
+      "left_at": "2026-06-13T13:12:40.944Z"
+    },
+    {
+      "id": "0cd5bf53-ad99-40fb-b5c6-c863e65b4e84",
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:12:40.944Z",
+      "left_at": "2026-06-13T13:12:43.245Z"
+    },
+    {
+      "id": "9430a316-3a62-426c-8cc7-e6f4ffac2343",
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:12:43.245Z",
+      "left_at": "2026-06-13T13:12:45.843Z"
+    },
+    {
+      "id": "d5407485-bfcb-402e-9679-0d56999b4746",
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:12:45.843Z",
+      "left_at": "2026-06-13T13:12:48.549Z"
+    },
+    {
+      "id": "96ed6aec-deaf-4d46-adaa-dd629c072a32",
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:12:48.549Z",
+      "left_at": "2026-06-13T13:12:51.188Z"
+    },
+    {
+      "id": "ea955c71-7b16-42e0-b5a4-72f9afb9b281",
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:12:51.188Z",
+      "left_at": "2026-06-13T13:12:54.256Z"
+    },
+    {
+      "id": "24c530dc-6fa1-4759-81fb-08a6eab813fc",
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:12:54.256Z",
+      "left_at": "2026-06-13T13:12:57.165Z"
+    },
+    {
+      "id": "4b86b2ab-b587-4605-9581-636839ace8fd",
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:12:57.165Z",
+      "left_at": "2026-06-13T13:12:59.939Z"
+    },
+    {
+      "id": "830d289e-faf4-4982-b410-cccf0d42e491",
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:12:59.939Z",
+      "left_at": null
+    },
+    {
+      "id": "defedb55-08e1-40bd-937c-dfb480a053c4",
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:14:13.474Z",
+      "left_at": "2026-06-13T13:14:16.091Z"
+    },
+    {
+      "id": "1200ae0b-7593-4a1a-a639-9d778198604f",
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:14:16.091Z",
+      "left_at": "2026-06-13T13:14:18.263Z"
+    },
+    {
+      "id": "538897c3-4a5e-4139-97c5-825f00d45510",
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:14:18.263Z",
+      "left_at": "2026-06-13T13:14:20.513Z"
+    },
+    {
+      "id": "88de7c7b-2140-4156-9459-e266c492810f",
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:14:20.513Z",
+      "left_at": "2026-06-13T13:14:22.787Z"
+    },
+    {
+      "id": "39a586bc-05f2-446c-af29-70bf9d63f9eb",
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:14:22.787Z",
+      "left_at": "2026-06-13T13:14:25.093Z"
+    },
+    {
+      "id": "c6bb16db-2a86-4465-9f29-061a05ab7a71",
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:14:25.094Z",
+      "left_at": "2026-06-13T13:14:27.391Z"
+    },
+    {
+      "id": "cfbca6e8-cee5-49f1-b67e-9a33baf6d97e",
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:14:27.391Z",
+      "left_at": "2026-06-13T13:14:29.788Z"
+    },
+    {
+      "id": "a9104e6e-febe-4232-8abf-e64f87e1f0fa",
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:14:29.788Z",
+      "left_at": "2026-06-13T13:14:32.109Z"
+    },
+    {
+      "id": "40c8452d-f4ec-4ac8-a3a8-170370740456",
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:14:32.109Z",
+      "left_at": "2026-06-13T13:14:34.354Z"
+    },
+    {
+      "id": "ba041f8a-5220-4207-902a-76006f5be10d",
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:14:34.354Z",
+      "left_at": "2026-06-13T13:14:36.917Z"
+    },
+    {
+      "id": "2dbb1f83-efa4-4280-95fe-1a91fb80e0d8",
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:14:36.917Z",
+      "left_at": "2026-06-13T13:14:39.085Z"
+    },
+    {
+      "id": "cbd1181c-193d-4c81-83e8-b56b1351d25a",
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:14:39.085Z",
+      "left_at": "2026-06-13T13:14:41.393Z"
+    },
+    {
+      "id": "b6c0924b-ca87-4efa-8564-1160848f093c",
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:14:41.393Z",
+      "left_at": "2026-06-13T13:14:43.528Z"
+    },
+    {
+      "id": "dc11d726-d600-492c-919f-aaa78b126bfe",
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:14:43.528Z",
+      "left_at": "2026-06-13T13:14:46.906Z"
+    },
+    {
+      "id": "0a5b9cb0-d817-4ea6-a23f-3289352da852",
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:14:46.906Z",
+      "left_at": "2026-06-13T13:14:49.382Z"
+    },
+    {
+      "id": "f7d9030c-200b-4321-a6da-5d7b07abf67b",
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:14:49.382Z",
+      "left_at": "2026-06-13T13:14:51.590Z"
+    },
+    {
+      "id": "66772bac-c823-4239-ba08-3dc30db7a2de",
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:14:51.590Z",
+      "left_at": "2026-06-13T13:14:53.691Z"
+    },
+    {
+      "id": "bffb0c3b-b040-4821-aa10-5a1479f4dbc2",
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:14:53.691Z",
+      "left_at": "2026-06-13T13:14:55.980Z"
+    },
+    {
+      "id": "722970d8-0530-40da-899e-b6ad1c481f51",
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:14:55.980Z",
+      "left_at": "2026-06-13T13:14:58.304Z"
+    },
+    {
+      "id": "573441df-28be-4847-9067-0587d9d62f0b",
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:14:58.304Z",
+      "left_at": "2026-06-13T13:15:00.792Z"
+    },
+    {
+      "id": "57d1a9c4-5421-4213-ad62-a8dbae0bdacc",
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:15:00.792Z",
+      "left_at": null
+    },
+    {
+      "id": "79b8f834-83db-4737-a28d-82e106734348",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:16:33.666Z",
+      "left_at": "2026-06-13T13:16:36.600Z"
+    },
+    {
+      "id": "178d8d24-dff0-4db1-8655-4af74eea9d1d",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:16:36.600Z",
+      "left_at": "2026-06-13T13:16:38.865Z"
+    },
+    {
+      "id": "8c455fac-cfe5-4a1e-b29b-c2a3ac25aa25",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:16:38.865Z",
+      "left_at": "2026-06-13T13:16:41.067Z"
+    },
+    {
+      "id": "7cb5f14b-7eed-41b3-864d-4f9cf18382ff",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:16:41.067Z",
+      "left_at": "2026-06-13T13:16:43.143Z"
+    },
+    {
+      "id": "99d5ca1a-b34c-481a-af3c-b4305767de91",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:16:43.143Z",
+      "left_at": "2026-06-13T13:16:45.285Z"
+    },
+    {
+      "id": "802ba972-b5d0-4a66-a01d-f1a58e645a0d",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:16:45.285Z",
+      "left_at": "2026-06-13T13:16:47.373Z"
+    },
+    {
+      "id": "471b4875-6e4a-476b-a27a-e7591a95d669",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:16:47.373Z",
+      "left_at": "2026-06-13T13:16:49.625Z"
+    },
+    {
+      "id": "a02c67b9-a04d-4b60-b335-0ca011b3c386",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:16:49.625Z",
+      "left_at": "2026-06-13T13:16:51.993Z"
+    },
+    {
+      "id": "1668f321-8e75-42d8-b63a-82194c443bdb",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:16:51.993Z",
+      "left_at": "2026-06-13T13:16:54.475Z"
+    },
+    {
+      "id": "004b3c81-ff5c-42cc-aa93-6feef8b24d94",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:16:54.475Z",
+      "left_at": "2026-06-13T13:16:57.171Z"
+    },
+    {
+      "id": "c5202790-fedc-49cc-a236-e8cc4ffb62ae",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:16:57.171Z",
+      "left_at": "2026-06-13T13:17:00.168Z"
+    },
+    {
+      "id": "fafb1de7-0111-4941-8e07-6f84bb50f4aa",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:17:00.168Z",
+      "left_at": "2026-06-13T13:17:02.469Z"
+    },
+    {
+      "id": "ad65f151-85e4-4710-9b73-b3c342d619b4",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:17:02.469Z",
+      "left_at": "2026-06-13T13:17:05.229Z"
+    },
+    {
+      "id": "0d8d8cc7-98ce-4504-980e-902efd0a45c1",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:17:05.229Z",
+      "left_at": "2026-06-13T13:17:07.978Z"
+    },
+    {
+      "id": "54b17fea-4969-4f19-bdd3-1b807d201952",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:17:07.978Z",
+      "left_at": "2026-06-13T13:17:11.169Z"
+    },
+    {
+      "id": "ebe1fb97-42a9-49fc-978f-8d6ab448bd16",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:17:11.169Z",
+      "left_at": "2026-06-13T13:17:14.058Z"
+    },
+    {
+      "id": "5072a5be-ca90-4975-9281-eff3dcfaeccd",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:17:14.058Z",
+      "left_at": "2026-06-13T13:17:16.802Z"
+    },
+    {
+      "id": "0c9e134d-de0f-4331-8bea-670e8013af3f",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:17:16.802Z",
+      "left_at": "2026-06-13T13:17:19.407Z"
+    },
+    {
+      "id": "e80c82d4-dd40-4aab-bd11-3de6e6aa00ed",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:17:19.407Z",
+      "left_at": "2026-06-13T13:17:21.940Z"
+    },
+    {
+      "id": "aafc1cbb-98b1-4a3b-95d5-8f3a0d0fd5b6",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:17:21.940Z",
+      "left_at": "2026-06-13T13:17:24.732Z"
+    },
+    {
+      "id": "e4e51824-25a6-4bb8-a414-16ebb38a8c3f",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:17:24.732Z",
+      "left_at": "2026-06-13T13:17:27.183Z"
+    },
+    {
+      "id": "b26a7e6d-19a3-420c-9400-68ac41aaac51",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:17:27.183Z",
+      "left_at": "2026-06-13T13:17:29.570Z"
+    },
+    {
+      "id": "b952ffa5-3c13-483a-9165-6f9ba7e3388a",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:17:29.571Z",
+      "left_at": "2026-06-13T13:17:32.367Z"
+    },
+    {
+      "id": "0961ef3d-ceae-4b00-8a16-038d7c27253d",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:17:32.367Z",
+      "left_at": "2026-06-13T13:17:34.832Z"
+    },
+    {
+      "id": "892316e3-c98e-41e7-adca-de3e3b1746fc",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:17:34.833Z",
+      "left_at": "2026-06-13T13:17:37.637Z"
+    },
+    {
+      "id": "5fbeb9f5-c194-467a-8b15-9ab0b1b19fff",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:17:37.637Z",
+      "left_at": "2026-06-13T13:17:40.431Z"
+    },
+    {
+      "id": "3f947272-f334-47ab-a79b-6021d58e9602",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:17:40.431Z",
+      "left_at": "2026-06-13T13:17:43.127Z"
+    },
+    {
+      "id": "2f6dbf25-f349-4232-9dd7-a2ec730b1f52",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:17:43.127Z",
+      "left_at": "2026-06-13T13:17:45.494Z"
+    },
+    {
+      "id": "5116596a-041e-4bf0-b41f-a6f17cb3577b",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:17:45.494Z",
+      "left_at": "2026-06-13T13:17:48.073Z"
+    },
+    {
+      "id": "397ac832-3e61-4ec8-8a89-7791a7658d18",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:17:48.073Z",
+      "left_at": null
+    },
+    {
+      "id": "9b491cf1-481c-41cc-9d31-434b5fe13f7d",
+      "session_id": "966e1447-447f-4721-ac01-4c02c36dcd74",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:22:58.785Z",
+      "left_at": "2026-06-13T13:23:14.656Z"
+    },
+    {
+      "id": "d821e5a1-906d-447f-a5bb-3acfbaf15155",
+      "session_id": "966e1447-447f-4721-ac01-4c02c36dcd74",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:23:14.656Z",
+      "left_at": "2026-06-13T13:23:23.527Z"
+    },
+    {
+      "id": "9b5de361-93a5-4578-8630-d2a040549e04",
+      "session_id": "966e1447-447f-4721-ac01-4c02c36dcd74",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:23:23.527Z",
+      "left_at": "2026-06-13T13:23:32.970Z"
+    },
+    {
+      "id": "5889e5f7-fd0d-41b1-958f-407ef13797a3",
+      "session_id": "966e1447-447f-4721-ac01-4c02c36dcd74",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:23:32.970Z",
+      "left_at": "2026-06-13T13:23:46.824Z"
+    },
+    {
+      "id": "898ec84a-cefa-4cb7-8939-89ed2a086d2e",
+      "session_id": "966e1447-447f-4721-ac01-4c02c36dcd74",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:23:46.824Z",
+      "left_at": "2026-06-13T13:24:08.871Z"
+    },
+    {
+      "id": "d63e5b44-7085-4d5d-81d2-fdfd765a716d",
+      "session_id": "966e1447-447f-4721-ac01-4c02c36dcd74",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:24:08.872Z",
+      "left_at": "2026-06-13T13:24:59.154Z"
+    },
+    {
+      "id": "e9e49775-c425-4a13-830b-d0d6a0741dbd",
+      "session_id": "966e1447-447f-4721-ac01-4c02c36dcd74",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:24:59.154Z",
+      "left_at": "2026-06-13T13:25:13.810Z"
+    },
+    {
+      "id": "46d680b7-518f-42ba-aa8d-3beb6d8c8674",
+      "session_id": "966e1447-447f-4721-ac01-4c02c36dcd74",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:25:13.810Z",
+      "left_at": "2026-06-13T13:25:32.760Z"
+    },
+    {
+      "id": "4342e3f4-b116-4a14-92ff-0c14d68e0af9",
+      "session_id": "966e1447-447f-4721-ac01-4c02c36dcd74",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T13:25:32.760Z",
+      "left_at": null
+    },
+    {
+      "id": "7dc2b682-5012-4291-8c74-bc3fa90a0807",
+      "session_id": "f7080152-31ef-46e8-b631-2154d70d36eb",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T14:13:01.042Z",
+      "left_at": "2026-06-13T14:13:38.919Z"
+    },
+    {
+      "id": "389d0282-6633-46d3-9b03-567cb77b8cd7",
+      "session_id": "119157b9-cf14-408d-8f58-51e27d1695bf",
+      "user_id": "6e73e97a-a887-470f-84fa-840ee8f0ee06",
+      "role": "customer",
+      "name": "Customer John Doe",
+      "joined_at": "2026-06-13T14:15:08.550Z",
+      "left_at": "2026-06-13T14:17:10.219Z"
+    },
+    {
+      "id": "c7561cdc-16df-44e8-b04f-380f1fe44a61",
+      "session_id": "119157b9-cf14-408d-8f58-51e27d1695bf",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T14:15:20.101Z",
+      "left_at": "2026-06-13T14:17:16.353Z"
+    },
+    {
+      "id": "3f99c07e-32fd-4ee2-835b-a32c3c3d7d78",
+      "session_id": "d646d435-98da-46d5-bdf7-a75405bd7330",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T14:21:26.539Z",
+      "left_at": "2026-06-13T14:22:14.775Z"
+    },
+    {
+      "id": "3256389c-8a8c-4a4a-8e30-8712d4b4b236",
+      "session_id": "d646d435-98da-46d5-bdf7-a75405bd7330",
+      "user_id": "6e73e97a-a887-470f-84fa-840ee8f0ee06",
+      "role": "customer",
+      "name": "Customer John Doe",
+      "joined_at": "2026-06-13T14:21:31.460Z",
+      "left_at": "2026-06-13T14:24:26.308Z"
+    },
+    {
+      "id": "1c801550-af22-411c-9fb3-d9e6fc4e0155",
+      "session_id": "d646d435-98da-46d5-bdf7-a75405bd7330",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T14:22:14.775Z",
+      "left_at": "2026-06-13T14:22:50.406Z"
+    },
+    {
+      "id": "15e5b567-f551-4312-a9d6-482691d9740c",
+      "session_id": "d646d435-98da-46d5-bdf7-a75405bd7330",
+      "user_id": "6e73e97a-a887-470f-84fa-840ee8f0ee06",
+      "role": "customer",
+      "name": "Customer John Doe",
+      "joined_at": "2026-06-13T14:24:26.308Z",
+      "left_at": "2026-06-13T14:27:17.253Z"
+    },
+    {
+      "id": "b00eacac-7c0e-4c3b-badd-2be0397fda5d",
+      "session_id": "a628398d-a1cf-4beb-8a2b-0b9d0a750d92",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "role": "agent",
+      "name": "Support Agent Jane",
+      "joined_at": "2026-06-13T14:25:47.050Z",
+      "left_at": "2026-06-13T14:27:08.426Z"
+    },
+    {
+      "id": "55f22610-8dab-465e-9b01-2d1a0122a2f9",
+      "session_id": "a628398d-a1cf-4beb-8a2b-0b9d0a750d92",
+      "user_id": "6e73e97a-a887-470f-84fa-840ee8f0ee06",
+      "role": "customer",
+      "name": "Customer John Doe",
+      "joined_at": "2026-06-13T14:25:51.469Z",
+      "left_at": "2026-06-13T14:27:17.261Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "5960fc7a-8a93-48f6-9347-21eb3725c3ba",
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "sender_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "sender_name": "Support Agent Jane",
+      "sender_role": "agent",
+      "content": "Hello, this is Agent Jane.",
+      "type": "text",
+      "file_url": null,
+      "created_at": "2026-06-13T13:04:58.859Z"
+    },
+    {
+      "id": "8d765bfb-fd73-4079-8306-06b08d5d7213",
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "sender_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "sender_name": "Support Agent Jane",
+      "sender_role": "agent",
+      "content": "hi",
+      "type": "text",
+      "file_url": null,
+      "created_at": "2026-06-13T13:12:31.874Z"
+    },
+    {
+      "id": "9df56f21-e5c0-4529-9905-f526f65f8347",
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "sender_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "sender_name": "Support Agent Jane",
+      "sender_role": "agent",
+      "content": "hi",
+      "type": "text",
+      "file_url": null,
+      "created_at": "2026-06-13T13:17:43.012Z"
+    },
+    {
+      "id": "aa4c1572-5d40-4082-8529-6f47cccc88cc",
+      "session_id": "119157b9-cf14-408d-8f58-51e27d1695bf",
+      "sender_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "sender_name": "Support Agent Jane",
+      "sender_role": "agent",
+      "content": "hi",
+      "type": "text",
+      "file_url": null,
+      "created_at": "2026-06-13T14:16:23.537Z"
+    },
+    {
+      "id": "14887fba-9c80-4f33-a314-262743cc9073",
+      "session_id": "119157b9-cf14-408d-8f58-51e27d1695bf",
+      "sender_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "sender_name": "Support Agent Jane",
+      "sender_role": "agent",
+      "content": "hello",
+      "type": "text",
+      "file_url": null,
+      "created_at": "2026-06-13T14:16:30.596Z"
+    },
+    {
+      "id": "6ac31ac6-8b06-4f69-a670-049ecb68c518",
+      "session_id": "119157b9-cf14-408d-8f58-51e27d1695bf",
+      "sender_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "sender_name": "Support Agent Jane",
+      "sender_role": "agent",
+      "content": "Shared file: image.jpg",
+      "type": "file",
+      "file_url": "/uploads/1781360201047-963721850.jpg",
+      "created_at": "2026-06-13T14:16:41.119Z"
+    },
+    {
+      "id": "96dfc545-0539-4c96-8d7a-a30f92fb9305",
+      "session_id": "119157b9-cf14-408d-8f58-51e27d1695bf",
+      "sender_id": "6e73e97a-a887-470f-84fa-840ee8f0ee06",
+      "sender_name": "Customer John Doe",
+      "sender_role": "customer",
+      "content": "Shared file: IMG_20260613_091704.jpg",
+      "type": "file",
+      "file_url": "/uploads/1781360219200-626401276.jpg",
+      "created_at": "2026-06-13T14:17:01.396Z"
+    },
+    {
+      "id": "89488d5f-bbed-49a3-9dae-4f3a311de326",
+      "session_id": "d646d435-98da-46d5-bdf7-a75405bd7330",
+      "sender_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "sender_name": "System",
+      "sender_role": "system",
+      "content": "Support session recording is ready. Download here.",
+      "type": "file",
+      "file_url": "/uploads/1781360506221-866383856.webm",
+      "created_at": "2026-06-13T14:21:47.033Z"
+    }
+  ],
+  "events": [
+    {
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "event_type": "session_created",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"agent_name\":\"Support Agent Jane\"}",
+      "timestamp": "2026-06-13T13:02:16.725Z"
+    },
+    {
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:03:08.056Z"
+    },
+    {
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "event_type": "leave_timeout",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:08:54.122Z"
+    },
+    {
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:12:14.533Z"
+    },
+    {
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:12:17.699Z"
+    },
+    {
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:12:20.432Z"
+    },
+    {
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:12:22.857Z"
+    },
+    {
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:12:25.215Z"
+    },
+    {
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:12:27.543Z"
+    },
+    {
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:12:29.897Z"
+    },
+    {
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:12:31.981Z"
+    },
+    {
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:12:34.240Z"
+    },
+    {
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:12:36.381Z"
+    },
+    {
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:12:38.560Z"
+    },
+    {
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:12:40.941Z"
+    },
+    {
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:12:43.244Z"
+    },
+    {
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:12:45.841Z"
+    },
+    {
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:12:48.548Z"
+    },
+    {
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:12:51.186Z"
+    },
+    {
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:12:54.254Z"
+    },
+    {
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:12:57.163Z"
+    },
+    {
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:12:59.938Z"
+    },
+    {
+      "session_id": "ad6f1770-c3b1-40ea-ab06-448e06e873bd",
+      "event_type": "session_ended",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"ended_by\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:13:03.940Z"
+    },
+    {
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "event_type": "session_created",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"agent_name\":\"Support Agent Jane\"}",
+      "timestamp": "2026-06-13T13:13:54.656Z"
+    },
+    {
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:14:13.472Z"
+    },
+    {
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:14:16.089Z"
+    },
+    {
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:14:18.259Z"
+    },
+    {
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:14:20.510Z"
+    },
+    {
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:14:22.785Z"
+    },
+    {
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:14:25.091Z"
+    },
+    {
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:14:27.388Z"
+    },
+    {
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:14:29.786Z"
+    },
+    {
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:14:32.108Z"
+    },
+    {
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:14:34.352Z"
+    },
+    {
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:14:36.913Z"
+    },
+    {
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:14:39.083Z"
+    },
+    {
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:14:41.390Z"
+    },
+    {
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:14:43.524Z"
+    },
+    {
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:14:46.904Z"
+    },
+    {
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:14:49.377Z"
+    },
+    {
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:14:51.589Z"
+    },
+    {
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:14:53.689Z"
+    },
+    {
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:14:55.976Z"
+    },
+    {
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:14:58.302Z"
+    },
+    {
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:15:00.790Z"
+    },
+    {
+      "session_id": "e8777c99-bd68-4365-a057-9ecd4718612b",
+      "event_type": "session_ended",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"ended_by\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:15:05.016Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "session_created",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"agent_name\":\"Support Agent Jane\"}",
+      "timestamp": "2026-06-13T13:16:28.892Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:16:33.663Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:16:36.598Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:16:38.863Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:16:41.066Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:16:43.141Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:16:45.283Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:16:47.371Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:16:49.622Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:16:51.990Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:16:54.471Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:16:57.169Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:17:00.166Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:17:02.468Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:17:05.227Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:17:07.974Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:17:11.167Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:17:14.056Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:17:16.799Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:17:19.404Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:17:21.938Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:17:24.730Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:17:27.181Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:17:29.567Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:17:32.362Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:17:34.830Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:17:37.634Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:17:40.429Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:17:43.126Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:17:45.492Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:17:48.071Z"
+    },
+    {
+      "session_id": "4922006d-0c27-4141-8c12-64046bfeff73",
+      "event_type": "session_ended",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"ended_by\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:17:50.963Z"
+    },
+    {
+      "session_id": "966e1447-447f-4721-ac01-4c02c36dcd74",
+      "event_type": "session_created",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"agent_name\":\"Support Agent Jane\"}",
+      "timestamp": "2026-06-13T13:22:43.625Z"
+    },
+    {
+      "session_id": "966e1447-447f-4721-ac01-4c02c36dcd74",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:22:58.769Z"
+    },
+    {
+      "session_id": "966e1447-447f-4721-ac01-4c02c36dcd74",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:23:14.589Z"
+    },
+    {
+      "session_id": "966e1447-447f-4721-ac01-4c02c36dcd74",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:23:23.524Z"
+    },
+    {
+      "session_id": "966e1447-447f-4721-ac01-4c02c36dcd74",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:23:32.966Z"
+    },
+    {
+      "session_id": "966e1447-447f-4721-ac01-4c02c36dcd74",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:23:46.803Z"
+    },
+    {
+      "session_id": "966e1447-447f-4721-ac01-4c02c36dcd74",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:24:08.857Z"
+    },
+    {
+      "session_id": "966e1447-447f-4721-ac01-4c02c36dcd74",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:24:59.151Z"
+    },
+    {
+      "session_id": "966e1447-447f-4721-ac01-4c02c36dcd74",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:25:13.805Z"
+    },
+    {
+      "session_id": "966e1447-447f-4721-ac01-4c02c36dcd74",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T13:25:32.746Z"
+    },
+    {
+      "session_id": "a47b9490-04ea-4531-b92f-b401461a5373",
+      "event_type": "session_created",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"agent_name\":\"Support Agent Jane\"}",
+      "timestamp": "2026-06-13T13:27:40.955Z"
+    },
+    {
+      "session_id": "1bb244c2-0676-4bbc-b81b-a17b7dfb7624",
+      "event_type": "session_created",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"agent_name\":\"Support Agent Jane\"}",
+      "timestamp": "2026-06-13T13:33:29.894Z"
+    },
+    {
+      "session_id": "e8931311-5724-428d-bdfb-78f4c2f4b321",
+      "event_type": "session_created",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"agent_name\":\"Support Agent Jane\"}",
+      "timestamp": "2026-06-13T14:00:56.467Z"
+    },
+    {
+      "session_id": "f7080152-31ef-46e8-b631-2154d70d36eb",
+      "event_type": "session_created",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"agent_name\":\"Support Agent Jane\"}",
+      "timestamp": "2026-06-13T14:08:29.382Z"
+    },
+    {
+      "session_id": "f7080152-31ef-46e8-b631-2154d70d36eb",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T14:13:01.035Z"
+    },
+    {
+      "session_id": "f7080152-31ef-46e8-b631-2154d70d36eb",
+      "event_type": "session_ended",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"ended_by\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T14:13:38.499Z"
+    },
+    {
+      "session_id": "f7080152-31ef-46e8-b631-2154d70d36eb",
+      "event_type": "leave",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T14:13:38.931Z"
+    },
+    {
+      "session_id": "119157b9-cf14-408d-8f58-51e27d1695bf",
+      "event_type": "session_created",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"agent_name\":\"Support Agent Jane\"}",
+      "timestamp": "2026-06-13T14:13:41.340Z"
+    },
+    {
+      "session_id": "119157b9-cf14-408d-8f58-51e27d1695bf",
+      "event_type": "join",
+      "user_id": "6e73e97a-a887-470f-84fa-840ee8f0ee06",
+      "metadata": "{\"name\":\"Customer John Doe\",\"role\":\"customer\"}",
+      "timestamp": "2026-06-13T14:15:08.547Z"
+    },
+    {
+      "session_id": "119157b9-cf14-408d-8f58-51e27d1695bf",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T14:15:20.098Z"
+    },
+    {
+      "session_id": "119157b9-cf14-408d-8f58-51e27d1695bf",
+      "event_type": "file_uploaded",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"filename\":\"image.jpg\",\"url\":\"/uploads/1781360201047-963721850.jpg\"}",
+      "timestamp": "2026-06-13T14:16:41.078Z"
+    },
+    {
+      "session_id": "119157b9-cf14-408d-8f58-51e27d1695bf",
+      "event_type": "file_uploaded",
+      "user_id": "6e73e97a-a887-470f-84fa-840ee8f0ee06",
+      "metadata": "{\"filename\":\"IMG_20260613_091704.jpg\",\"url\":\"/uploads/1781360219200-626401276.jpg\"}",
+      "timestamp": "2026-06-13T14:17:01.349Z"
+    },
+    {
+      "session_id": "119157b9-cf14-408d-8f58-51e27d1695bf",
+      "event_type": "leave",
+      "user_id": "6e73e97a-a887-470f-84fa-840ee8f0ee06",
+      "metadata": "{\"name\":\"Customer John Doe\",\"role\":\"customer\"}",
+      "timestamp": "2026-06-13T14:17:10.220Z"
+    },
+    {
+      "session_id": "119157b9-cf14-408d-8f58-51e27d1695bf",
+      "event_type": "session_ended",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"ended_by\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T14:17:16.281Z"
+    },
+    {
+      "session_id": "119157b9-cf14-408d-8f58-51e27d1695bf",
+      "event_type": "leave",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T14:17:16.354Z"
+    },
+    {
+      "session_id": "e8931311-5724-428d-bdfb-78f4c2f4b321",
+      "event_type": "session_ended_by_admin",
+      "user_id": "1c4203ae-44a1-46cb-b27f-ab8267cb6406",
+      "metadata": "{\"admin_name\":\"System Administrator\"}",
+      "timestamp": "2026-06-13T14:19:54.749Z"
+    },
+    {
+      "session_id": "1bb244c2-0676-4bbc-b81b-a17b7dfb7624",
+      "event_type": "session_ended_by_admin",
+      "user_id": "1c4203ae-44a1-46cb-b27f-ab8267cb6406",
+      "metadata": "{\"admin_name\":\"System Administrator\"}",
+      "timestamp": "2026-06-13T14:19:57.431Z"
+    },
+    {
+      "session_id": "a47b9490-04ea-4531-b92f-b401461a5373",
+      "event_type": "session_ended_by_admin",
+      "user_id": "1c4203ae-44a1-46cb-b27f-ab8267cb6406",
+      "metadata": "{\"admin_name\":\"System Administrator\"}",
+      "timestamp": "2026-06-13T14:20:00.136Z"
+    },
+    {
+      "session_id": "966e1447-447f-4721-ac01-4c02c36dcd74",
+      "event_type": "session_ended_by_admin",
+      "user_id": "1c4203ae-44a1-46cb-b27f-ab8267cb6406",
+      "metadata": "{\"admin_name\":\"System Administrator\"}",
+      "timestamp": "2026-06-13T14:20:03.094Z"
+    },
+    {
+      "session_id": "d646d435-98da-46d5-bdf7-a75405bd7330",
+      "event_type": "session_created",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"agent_name\":\"Support Agent Jane\"}",
+      "timestamp": "2026-06-13T14:21:05.809Z"
+    },
+    {
+      "session_id": "d646d435-98da-46d5-bdf7-a75405bd7330",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T14:21:26.538Z"
+    },
+    {
+      "session_id": "d646d435-98da-46d5-bdf7-a75405bd7330",
+      "event_type": "join",
+      "user_id": "6e73e97a-a887-470f-84fa-840ee8f0ee06",
+      "metadata": "{\"name\":\"Customer John Doe\",\"role\":\"customer\"}",
+      "timestamp": "2026-06-13T14:21:31.458Z"
+    },
+    {
+      "session_id": "d646d435-98da-46d5-bdf7-a75405bd7330",
+      "event_type": "file_uploaded",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"filename\":\"recording-d646d435-98da-46d5-bdf7-a75405bd7330.webm\",\"url\":\"/uploads/1781360506221-866383856.webm\"}",
+      "timestamp": "2026-06-13T14:21:46.993Z"
+    },
+    {
+      "session_id": "d646d435-98da-46d5-bdf7-a75405bd7330",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T14:22:14.774Z"
+    },
+    {
+      "session_id": "d646d435-98da-46d5-bdf7-a75405bd7330",
+      "event_type": "leave_timeout",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T14:22:50.410Z"
+    },
+    {
+      "session_id": "d646d435-98da-46d5-bdf7-a75405bd7330",
+      "event_type": "session_ended",
+      "user_id": "1c4203ae-44a1-46cb-b27f-ab8267cb6406",
+      "metadata": "{\"ended_by\":\"System Administrator\",\"role\":\"admin\"}",
+      "timestamp": "2026-06-13T14:23:17.802Z"
+    },
+    {
+      "session_id": "d646d435-98da-46d5-bdf7-a75405bd7330",
+      "event_type": "leave",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T14:23:17.867Z"
+    },
+    {
+      "session_id": "d646d435-98da-46d5-bdf7-a75405bd7330",
+      "event_type": "join",
+      "user_id": "6e73e97a-a887-470f-84fa-840ee8f0ee06",
+      "metadata": "{\"name\":\"Customer John Doe\",\"role\":\"customer\"}",
+      "timestamp": "2026-06-13T14:24:26.307Z"
+    },
+    {
+      "session_id": "a628398d-a1cf-4beb-8a2b-0b9d0a750d92",
+      "event_type": "session_created",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"agent_name\":\"Support Agent Jane\"}",
+      "timestamp": "2026-06-13T14:25:26.496Z"
+    },
+    {
+      "session_id": "a628398d-a1cf-4beb-8a2b-0b9d0a750d92",
+      "event_type": "join",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T14:25:47.049Z"
+    },
+    {
+      "session_id": "a628398d-a1cf-4beb-8a2b-0b9d0a750d92",
+      "event_type": "join",
+      "user_id": "6e73e97a-a887-470f-84fa-840ee8f0ee06",
+      "metadata": "{\"name\":\"Customer John Doe\",\"role\":\"customer\"}",
+      "timestamp": "2026-06-13T14:25:51.467Z"
+    },
+    {
+      "session_id": "a628398d-a1cf-4beb-8a2b-0b9d0a750d92",
+      "event_type": "session_ended",
+      "user_id": "1c4203ae-44a1-46cb-b27f-ab8267cb6406",
+      "metadata": "{\"ended_by\":\"System Administrator\",\"role\":\"admin\"}",
+      "timestamp": "2026-06-13T14:26:38.370Z"
+    },
+    {
+      "session_id": "a628398d-a1cf-4beb-8a2b-0b9d0a750d92",
+      "event_type": "leave_timeout",
+      "user_id": "62cf30a0-344e-406e-925d-f7540fe36147",
+      "metadata": "{\"name\":\"Support Agent Jane\",\"role\":\"agent\"}",
+      "timestamp": "2026-06-13T14:27:08.427Z"
+    },
+    {
+      "session_id": "d646d435-98da-46d5-bdf7-a75405bd7330",
+      "event_type": "leave_timeout",
+      "user_id": "6e73e97a-a887-470f-84fa-840ee8f0ee06",
+      "metadata": "{\"name\":\"Customer John Doe\",\"role\":\"customer\"}",
+      "timestamp": "2026-06-13T14:27:17.256Z"
+    },
+    {
+      "session_id": "a628398d-a1cf-4beb-8a2b-0b9d0a750d92",
+      "event_type": "leave_timeout",
+      "user_id": "6e73e97a-a887-470f-84fa-840ee8f0ee06",
+      "metadata": "{\"name\":\"Customer John Doe\",\"role\":\"customer\"}",
+      "timestamp": "2026-06-13T14:27:17.262Z"
+    }
+  ],
+  "recordings": []
+}

@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build output (Railway builds this, don't commit)
+frontend/dist/
+
+# Database (Railway uses ephemeral FS, use Postgres/external DB for prod)
+data.db
+*.db
+
+# Environment variables (NEVER commit this)
+.env
+
+# Uploads (configure external storage for production)
+uploads/*
+!uploads/.gitkeep
+
+# Windows / Mac junk
+Thumbs.db
+.DS_Store
+
+# ngrok binary (not needed on cloud)
+ngrok.exe
+ngrok
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
