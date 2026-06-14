@@ -7,6 +7,10 @@
 
 const { spawn, execSync } = require('child_process');
 const http = require('http');
+const path = require('path');
+
+// Path to the local ngrok binary (bundled in project root)
+const NGROK_BIN = path.join(__dirname, 'ngrok.exe');
 
 // ─────────────────────────────────────────────
 // 0. Kill any stale node/ngrok processes first
@@ -77,11 +81,12 @@ async function startNgrok() {
   }
 
   console.log('\n🌐  Starting ngrok tunnel...\n');
-  const ngrokProc = spawn('ngrok', ['http', String(PORT), '--pooling-enabled'], { stdio: 'pipe' });
+  const ngrokProc = spawn(NGROK_BIN, ['http', String(PORT)], { stdio: 'pipe' });
 
   ngrokProc.stderr.on('data', (d) => process.stderr.write(d));
   ngrokProc.on('error', (err) => {
-    console.error('❌  ngrok not found. Install it from https://ngrok.com/download');
+    console.error('❌  ngrok failed to start:', err.message);
+    console.error('   Make sure ngrok.exe exists in the project root folder.');
   });
 
   // Poll ngrok local API to get the public URL
