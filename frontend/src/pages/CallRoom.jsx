@@ -206,7 +206,12 @@ export default function CallRoom() {
       role: user.role,
       name: user.name
     }, (response) => {
-      console.log('Room resynced on socket reconnection.');
+      if (response && response.error) {
+        addToast('Session expired or server restarted', 'danger');
+        navigate('/dashboard');
+      } else {
+        console.log('Room resynced on socket reconnection.');
+      }
     });
   };
 

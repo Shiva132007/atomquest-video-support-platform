@@ -14,6 +14,13 @@ function setupSignaling(io) {
       try {
         console.log(`User ${name} (${role}) joining session: ${sessionId}`);
 
+        // Validate session exists in the database first (handles DB resets on restarts)
+        const session = db.sessions.getById(sessionId);
+        if (!session) {
+          console.warn(`Join room failed: Session ${sessionId} does not exist in DB.`);
+          return callback({ error: 'Session no longer exists or has ended.' });
+        }
+
         // Check if there is an active disconnect timeout for this user
         if (disconnectTimeouts.has(userId)) {
           console.log(`User ${name} reconnected within grace window. Clearing timeout.`);
