@@ -65,36 +65,40 @@ module.exports = {
     }
   },
 
-  // Free TURN/STUN servers for cross-network WebRTC relay
-  // These are sent to the browser client so it can relay media through TURN
-  // when direct UDP connection to mediasoup is blocked (mobile data / different network)
-  iceServers: [
-    // Google STUN (very reliable, free)
-    { urls: 'stun:stun.l.google.com:19302' },
-    { urls: 'stun:stun1.l.google.com:19302' },
-    { urls: 'stun:stun2.l.google.com:19302' },
-    { urls: 'stun:stun3.l.google.com:19302' },
-    // Cloudflare STUN (reliable, free)
-    { urls: 'stun:stun.cloudflare.com:3478' },
-    // Open Relay TURN (free, no account) — UDP on port 80 (rarely blocked)
-    {
-      urls: 'turn:openrelay.metered.ca:80',
-      username: 'openrelayproject',
-      credential: 'openrelayproject'
-    },
-    // Open Relay TURN — TCP on port 443 (works through strict firewalls)
-    {
-      urls: 'turn:openrelay.metered.ca:443?transport=tcp',
-      username: 'openrelayproject',
-      credential: 'openrelayproject'
-    },
-    // Viagenie TURN (well-known free public TURN)
-    {
-      urls: 'turn:numb.viagenie.ca',
-      username: 'webrtc@live.com',
-      credential: 'muazkh'
-    },
-    // Twilio STUN (free, no account needed for STUN)
-    { urls: 'stun:global.stun.twilio.com:3478' }
-  ]
+  // STUN/TURN servers for cross-network WebRTC relay.
+  // STUN: helps discover the server's public IP (works same-network only).
+  // TURN: relays media when direct UDP is blocked (mobile data, strict firewalls, Render/Railway).
+  // Set TURN_SERVER_URL, TURN_USERNAME, TURN_CREDENTIAL in your Render environment variables.
+  // Get free credentials at: https://www.metered.ca/tools/openrelay/ (1 GB/month free)
+  iceServers: (() => {
+    const servers = [
+      // Google STUN — very reliable, free, no account needed
+      { urls: 'stun:stun.l.google.com:19302' },
+      { urls: 'stun:stun1.l.google.com:19302' },
+      // Cloudflare STUN
+      { urls: 'stun:stun.cloudflare.com:3478' },
+    ];
+
+    // Load TURN server from environment variables (set these in Render dashboard)
+    if (process.env.TURN_SERVER_URL && process.env.TURN_USERNAME && process.env.TURN_CREDENTIAL) {
+      const turnUrl = process.env.TURN_SERVER_URL; // e.g. openrelay.metered.ca
+      const username = process.env.TURN_USERNAME;
+      const credential = process.env.TURN_CREDENTIAL;
+
+      servers.push(
+        // UDP on port 80 — rarely blocked by firewalls
+        { urls: `turn:${turnUrl}:80`, username, credential },
+        // TCP on port 443 — works through almost all firewalls and strict corporate networks
+        { urls: `turns:${turnUrl}:443?transport=tcp`, username, credential },
+        // UDP on port 443 as fallback
+        { urls: `turn:${turnUrl}:443`, username, credential },
+      );
+    } else {
+      console.warn('⚠️  No TURN credentials configured. Video calls may fail across different networks.');
+      console.warn('   Set TURN_SERVER_URL, TURN_USERNAME, TURN_CREDENTIAL in your environment variables.');
+      console.warn('   Get free credentials at: https://www.metered.ca/tools/openrelay/');
+    }
+
+    return servers;
+  })()
 };
