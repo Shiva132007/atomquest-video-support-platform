@@ -25,6 +25,15 @@ function authMiddleware(req, res, next) {
   const token = authHeader.split(' ')[1];
   try {
     const decoded = jwt.verify(token, config.jwtSecret);
+    
+    // Verify user exists in database for registered users (handles DB resets on restarts)
+    if (!decoded.isGuest && (!decoded.id || !decoded.id.startsWith('guest_'))) {
+      const user = db.users.getById(decoded.id);
+      if (!user) {
+        return res.status(401).json({ error: 'User session invalid, please login again' });
+      }
+    }
+    
     req.user = decoded;
     next();
   } catch (error) {
